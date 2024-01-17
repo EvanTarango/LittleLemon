@@ -1,0 +1,59 @@
+body{
+background-color: rgb(240 250, 50); 
+}
+.navigation{
+    display: flex; 
+	width: 1020px; 
+	list-style: none;
+	background-color: rgb(50, 50, 55); 
+    border-radius: 20px; 
+    position: relative; 
+    left: 200px;
+    font-size: 25px; 
+	underline: none;
+}
+li{
+    padding-left: 50px;
+    position: relative; 
+    left: 230px; 
+}
+.logo{
+	display: inline-block; 
+	position: relative; 
+	left: 420px;
+}
+a{
+	text-decoration: none;
+    color: white;
+}
+.promo30{
+	border-radius: 20px; 
+	position: relative; 
+	left: 200px; 
+}
+.box1 , .box2 , .box3 {
+	background-color: rgb(50, 50, 55);
+    width: 300px; 
+    height: 400px;
+    margin: 20px; /* Increased margin for more spacing */
+    border-radius: 20px;
+    color: white;
+}
+.boxes{
+	display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+.box1img , .box2img , .box3img{
+	width: 280px;
+    position: relative; 
+    left: 10px;
+}
+hr{
+	width: 50%; 
+    height: 3px;
+    background-color: rgb(50, 50, 50);
+	position: relative; 
+    right: 500px;
+    
+}
